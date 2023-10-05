@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.66e3f3e5.css",
-    "main.js": "/static/js/main.78f06d7f.js",
+    "main.css": "/static/css/main.15b4b250.css",
+    "main.js": "/static/js/main.912ecc3c.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/lybrate-landing-page.png": "/static/media/lybrate-landing-page.36b49280c3671ca51ded.png",
     "static/media/landing-page.png": "/static/media/landing-page.761c6e2940697fc81ea1.png",
@@ -67,12 +67,12 @@
     "index.html": "/index.html",
     "static/media/disqus.svg": "/static/media/disqus.68a393dacee038379239.svg",
     "static/media/github.svg": "/static/media/github.1e4447342c75d429faa2.svg",
-    "main.66e3f3e5.css.map": "/static/css/main.66e3f3e5.css.map",
-    "main.78f06d7f.js.map": "/static/js/main.78f06d7f.js.map",
+    "main.15b4b250.css.map": "/static/css/main.15b4b250.css.map",
+    "main.912ecc3c.js.map": "/static/js/main.912ecc3c.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66e3f3e5.css",
-    "static/js/main.78f06d7f.js"
+    "static/css/main.15b4b250.css",
+    "static/js/main.912ecc3c.js"
   ]
 }
