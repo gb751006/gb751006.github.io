@@ -1,9 +1,9 @@
 function Header() {
   return (
-    <div className="header">
+    <div className="header" id="home">
       <div className="header--div1">
         <p className="header-hi fadeLeft">Hi there </p>
-        <h1 className="header--name fadeRight">Ganesh Behera</h1>
+        <h1 className="header--name fadeRight" id="user-detail-name">Ganesh Behera</h1>
         <h3 className="header--work fadeLeft">FULL STACK WEB DEVELOPER </h3>
         <p className="fadeRight">
           I’m a MERN stack developer

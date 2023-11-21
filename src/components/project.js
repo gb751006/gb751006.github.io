@@ -62,7 +62,7 @@ function Projects() {
   const [projectData, setData] = useState({});
 
   return (
-    <div className="slider-div">
+    <div className="slider-div project-card">
       <Slider {...settings}>
         {/* small projects*/}
         {projects.map((project, index) => {
@@ -71,7 +71,7 @@ function Projects() {
               key={project.project_id}
               className={`silde-div img--${index + 1}`}
             >
-              <div className="projectName">
+              <div className="projectName project-title">
                 <div className="Projectheading">
                   <h5>{project.project_title}</h5>
                 </div>

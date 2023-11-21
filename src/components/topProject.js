@@ -2,11 +2,11 @@ import "../styles/topProject.css";
 // import play from "../img/play.svg";
 function Toproject({ projectdata, description, techStack, imges, links }) {
   return (
-    <div className="top-Projects">
+    <div className="top-Projects project-card">
       <div>
-        <h1>{projectdata}</h1>
-        <p>{description} </p>
-        <div className="techStack_div">
+        <h1 className="project-title">{projectdata}</h1>
+        <p className="project-description">{description} </p>
+        <div className="techStack_div project-tech-stack">
           {techStack.map((img, index) => {
             return (
               <div className="tech_stack" key={index}>
@@ -22,7 +22,7 @@ function Toproject({ projectdata, description, techStack, imges, links }) {
           })}
         </div>
         <div>
-          <div className="btn--live">
+          <div className="btn--live project-deployed-link">
             <a href={links[0]} target="_blank" rel="noopener noreferrer">
               <img
                 src="https://www.svgrepo.com/show/379221/open-in-new.svg"
@@ -31,7 +31,7 @@ function Toproject({ projectdata, description, techStack, imges, links }) {
               <span>Visit Now</span>
             </a>
           </div>
-          <div className="btn--live">
+          <div className="btn--live project-github-link">
             <a href={links[1]} target="_blank" rel="noopener noreferrer">
               <img
                 src="https://www.svgrepo.com/show/325236/github.svg"
@@ -62,6 +62,7 @@ function Toproject({ projectdata, description, techStack, imges, links }) {
           className="card img-3"
           style={{ backgroundImage: `url(${require("../img/" + imges[2])})` }}
         ></div>
+        
       </div>
     </div>
   );

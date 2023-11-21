@@ -7,7 +7,7 @@ function TechStack() {
         <p className="highlight">Tech stack I know</p>
         <h2 className="head">Teach Stack</h2>
       </div>
-      <div className="stack">
+      <div className="stack" id="skills">
         <div className="front-back" data-aos={"fade-right"}>
           <h2>Frontend / Backend</h2>
           <div className="tech-list">
@@ -17,41 +17,41 @@ function TechStack() {
               </div>
               <p>Python</p>
             </div> */}
-            <div>
-              <div className="tech">
+            <div className="skills-card">
+              <div className="tech skills-card-img">
                 <img src={require("../img/tech/html_img.png")} alt="" />
               </div>
-              <p>HTML</p>
+              <p className="skills-card-name">HTML</p>
             </div>
-            <div>
-              <div className="tech">
+            <div className="skills-card">
+              <div className="tech skills-card-img">
                 <img src={require("../img/tech/css.png")} alt="" />
               </div>
-              <p>CSS</p>
+              <p className="skills-card-name">CSS</p>
             </div>
-            <div>
-              <div className="tech">
+            <div className="skills-card">
+              <div className="tech skills-card-img">
                 <img src={require("../img/tech/js.jpg")} alt="" />
               </div>
-              <p>JavaScript</p>
+              <p className="skills-card-name">JavaScript</p>
             </div>
-            <div>
-              <div className="tech">
+            <div className="skills-card">
+              <div className="tech skills-card-img">
                 <img src={require("../img/tech/node.webp")} alt="" />
               </div>
-              <p>Node.js</p>
+              <p className="skills-card-name">Node.js</p>
             </div>
-            <div>
-              <div className="tech">
+            <div className="skills-card">
+              <div className="tech skills-card-img">
                 <img src={require("../img/tech/express.png")} alt="" />
               </div>
-              <p>Express</p>
+              <p className="skills-card-name">Express</p>
             </div>
-            <div>
-              <div className="tech">
+            <div className="skills-card">
+              <div className="tech skills-card-img">
                 <img src={require("../img/tech/mongo.png")} alt="" />
               </div>
-              <p>MongoDB</p>
+              <p className="skills-card-name">MongoDB</p>
             </div>
           </div>
         </div>

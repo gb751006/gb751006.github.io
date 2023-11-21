@@ -10,12 +10,12 @@ function Footer() {
       </div>
       <Form />
       <div className="credit my-details">
-        <p><b>Email</b> - naruto.ganesh007@gmail.com</p>
-        <p><b>Phone no.</b> - 9078980606</p>
+        <p id="contact-email"><b>Email</b> - naruto.ganesh007@gmail.com</p>
+        <p id="contact-phone"><b>Phone no.</b> - 9078980606</p>
       </div>
       <div className="footer__div">
         <div>
-          <span>
+          <span id="contact-linkedin">
             <a
               href="https://www.linkedin.com/in/ganesh-behera-937264227/"
               target="_blank"
@@ -31,7 +31,7 @@ function Footer() {
               <p>Linkedin</p>
             </a>
           </span>
-          <span>
+          <span id="contact-github">
             <a
               href="https://github.com/ganeshbehera012"
               target="_blank"

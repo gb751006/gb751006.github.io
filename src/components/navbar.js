@@ -1,13 +1,26 @@
 import "../App.css";
 import { useState } from "react";
+import resume from "../docs/Ganesh_Behera_Resume.pdf";
 function Navbar() {
   const [toggle, settoggle] = useState(false);
   const [small, setsmall] = useState("");
+
+  const handleClick = () => {
+    window.open(
+      "https://drive.google.com/file/d/19pNz5cbPygTln74ct5di86Csf8j3-Ft8/view?usp=sharing"
+    );
+    const link = document.createElement("a");
+    link.href = resume;
+    link.target = "_blank";
+    link.download = "Ganesh_Beher_Resume.pdf";
+    link.click();
+  };
+
   return (
     <div className="navbar" id="nav-menu">
       <div className="logo">
         <img
-          src="https://pngpress.com/wp-content/uploads/2020/09/uploads_letter_g_letter_g_PNG59.png"
+          src="gb2.png"
           width="50px"
           height="50px"
           alt=""
@@ -39,47 +52,49 @@ function Navbar() {
             settoggle(!toggle);
           }}
         >
-          <a href="#top" className="nav-link home">Home</a>
-        </div>
-        <div
-          onClick={() => {
-            settoggle(!toggle);
-          }}
-        >
-          <a href="#about" className="nav-link about">About</a>
-        </div>
-        <div
-          onClick={() => {
-            settoggle(!toggle);
-          }}
-        >
-          <a href="#tech" className="nav-link skills">Skills</a>
-        </div>
-        <div
-          onClick={() => {
-            settoggle(!toggle);
-          }}
-        >
-          <a href="#projects" className="nav-link projects">Project</a>
-        </div>
-        <div
-          onClick={() => {
-            settoggle(!toggle);
-          }}
-        >
-          <a href="#contact" className="nav-link contact">Contact Me</a>
-        </div>
-        <div className="cv">
-          <a
-            href="https://drive.google.com/file/d/1eqa_H_1lpNAyD8WjEhq8qy8NxcnGklWT/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: "#000" }}
-            className="nav-link resume"
-          >
-            Resume
+          <a href="#top" className="nav-link home">
+            Home
           </a>
         </div>
+        <div
+          onClick={() => {
+            settoggle(!toggle);
+          }}
+        >
+          <a href="#about" className="nav-link about">
+            About
+          </a>
+        </div>
+        <div
+          onClick={() => {
+            settoggle(!toggle);
+          }}
+        >
+          <a href="#tech" className="nav-link skills">
+            Skills
+          </a>
+        </div>
+        <div
+          onClick={() => {
+            settoggle(!toggle);
+          }}
+        >
+          <a href="#projects" className="nav-link projects">
+            Project
+          </a>
+        </div>
+        <div
+          onClick={() => {
+            settoggle(!toggle);
+          }}
+        >
+          <a href="#contact" className="nav-link contact">
+            Contact Me
+          </a>
+        </div>
+        <button className="cv" onClick={handleClick}>
+          Resume
+        </button>
       </div>
     </div>
   );
