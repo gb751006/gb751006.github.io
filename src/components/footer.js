@@ -10,8 +10,8 @@ function Footer() {
       </div>
       <Form />
       <div className="credit my-details">
-        <p id="contact-email"><b>Email</b> - naruto.ganesh007@gmail.com</p>
-        <p id="contact-phone"><b>Phone no.</b> - 9078980606</p>
+        <p id="contact-email"><b>Email</b> - gb751006@gmail.com</p>
+        <p id="contact-phone"><b>Phone no.</b> - 9090358909</p>
       </div>
       <div className="footer__div">
         <div>
@@ -33,7 +33,7 @@ function Footer() {
           </span>
           <span id="contact-github">
             <a
-              href="https://github.com/ganeshbehera012"
+              href="https://github.com/gb751006"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -125,7 +125,7 @@ function Footer() {
           <span>Ganesh Behera</span>
         </div>
         <div className="credit" style={{ color: "#00ffbb" }}>
-          <span>&copy; 2022</span>
+          <span>&copy; 2023</span>
         </div>
         <div className="topDiv">
           <a href="#top">
