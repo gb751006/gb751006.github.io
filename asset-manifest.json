@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.33fd96e5.css",
-    "main.js": "/static/js/main.4c1dcaf4.js",
-    "static/js/787.e8c6061e.chunk.js": "/static/js/787.e8c6061e.chunk.js",
+    "main.css": "/static/css/main.66e3f3e5.css",
+    "main.js": "/static/js/main.79d512ae.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/lybrate-landing-page.png": "/static/media/lybrate-landing-page.36b49280c3671ca51ded.png",
     "static/media/landing-page.png": "/static/media/landing-page.761c6e2940697fc81ea1.png",
-    "static/media/Ganesh_Behera_resume.pdf": "/static/media/Ganesh_Behera_resume.8de8f51342a5027e15ac.pdf",
+    "static/media/Ganesh_Behera_Resume.pdf": "/static/media/Ganesh_Behera_Resume.8de8f51342a5027e15ac.pdf",
     "static/media/mens-page.png": "/static/media/mens-page.67f600e7f166ee26b33b.png",
     "static/media/cart-page.png": "/static/media/cart-page.eac02a51f5fb5f2ee60a.png",
     "static/media/max1.png": "/static/media/max1.c510d9395d90af62005f.png",
@@ -68,12 +68,12 @@
     "index.html": "/index.html",
     "static/media/disqus.svg": "/static/media/disqus.68a393dacee038379239.svg",
     "static/media/github.svg": "/static/media/github.1e4447342c75d429faa2.svg",
-    "main.33fd96e5.css.map": "/static/css/main.33fd96e5.css.map",
-    "main.4c1dcaf4.js.map": "/static/js/main.4c1dcaf4.js.map",
-    "787.e8c6061e.chunk.js.map": "/static/js/787.e8c6061e.chunk.js.map"
+    "main.66e3f3e5.css.map": "/static/css/main.66e3f3e5.css.map",
+    "main.79d512ae.js.map": "/static/js/main.79d512ae.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33fd96e5.css",
-    "static/js/main.4c1dcaf4.js"
+    "static/css/main.66e3f3e5.css",
+    "static/js/main.79d512ae.js"
   ]
 }
